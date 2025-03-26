@@ -5,7 +5,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 public interface InfoBot {
     Dotenv dotenv = Dotenv.configure()
-            .directory("src/main/resources")
+            .directory("src/main/resources/")
             .filename(".env")
             .load();
 
